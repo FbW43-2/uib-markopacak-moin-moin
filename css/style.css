@@ -1,0 +1,32 @@
+span:nth-of-type(2n+1) {
+    color: purple;
+}
+
+span:nth-of-type(18) {
+    color: goldenrod;
+}
+
+span:last-of-type {
+    color: black;
+    opacity: 0.5;
+}
+
+span:nth-of-type(even):hover {
+    color: peru;
+    font-size: 21px;
+}
+
+/* span:nth-of-type(3n):not(:nth-of-type(odd)) {
+    color: orangered;
+} */
+
+/* span:nth-of-type(3n):nth-of-type(even) {
+    color: orangered;
+} */
+
+span:nth-of-type(6n) {
+    color: orangered;
+}
+span:nth-of-type(3n):nth-of-type(odd) {
+    color: pink;
+}
