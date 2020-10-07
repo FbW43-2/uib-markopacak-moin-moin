@@ -24,9 +24,21 @@ span:nth-of-type(even):hover {
     color: orangered;
 } */
 
-span:nth-of-type(6n) {
+span:nth-of-type(6n):not(:nth-of-type(18)) {
     color: orangered;
 }
 span:nth-of-type(3n):nth-of-type(odd) {
     color: pink;
+}
+
+/* span:nth-of-type(5n):nth-of-type(3n):hover {
+    color: green;
+    font-weight: bolder;
+    opacity: 0.4;
+} */
+
+span:nth-of-type(15n):hover {
+    color: green;
+    font-weight: bolder;
+    opacity: 0.4;
 }
